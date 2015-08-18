@@ -23,3 +23,33 @@ li {
     display: inline;
     padding-left: 22px;
 }
+
+h2 {
+    padding-left: 20px;
+}
+
+.homeDiv, p, img {
+    margin-left: 20px;
+}
+
+.column {
+    display: inline-block;
+    padding-left: 28px;
+}
+
+.activitiesDiv {
+    padding-bottom: 20px;
+}
+
+.activitiescolumn {
+    display: inline-block;
+    padding-left: 20px;
+}
+
+.superfriends {
+    width: 360px;
+}
+
+.superfriends2 {
+    width: 150px;
+}

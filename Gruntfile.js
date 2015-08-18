@@ -59,7 +59,7 @@ module.exports = function(grunt){
                 src: [
                     "views/routes/activities.html",
                     "views/routes/home.html",
-                    "views/routes/motorcycles.html",
+                    "views/routes/professional.html",
                     "views/routes/friendlies.html"
                 ],
                 "dest": "server/public/assets/"

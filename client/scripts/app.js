@@ -12,8 +12,8 @@ myApp.config(['$routeProvider', function($routeProvider){
             templateUrl: "/assets/views/routes/activities.html",
             controller: "SomeController"
         }).
-        when('/motorcycles', {
-            templateUrl: "/assets/views/routes/motorcycles.html",
+        when('/professional', {
+            templateUrl: "/assets/views/routes/professional.html",
             controller: "AnotherController"
         }).
         when('/friendlies', {
