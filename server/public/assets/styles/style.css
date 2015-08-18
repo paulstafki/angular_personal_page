@@ -1,3 +1,25 @@
 body {
-    background-color: #009926;
+    background-color: #ADD6FF;
+}
+
+.jumbotron {
+    height: 140px;
+    background-color: #ADD6FF;
+}
+
+h1, h2, h3, h4, h5, p, li {
+    font-family: Monda;
+}
+
+h1 {
+    padding-left: 60px;
+}
+
+ul {
+    list-style-type: none;
+}
+
+li {
+    display: inline;
+    padding-left: 22px;
 }

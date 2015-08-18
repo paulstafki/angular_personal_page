@@ -16,6 +16,10 @@ myApp.config(['$routeProvider', function($routeProvider){
             templateUrl: "/assets/views/routes/motorcycles.html",
             controller: "AnotherController"
         }).
+        when('/friendlies', {
+            templateUrl: "/assets/views/routes/friendlies.html",
+            controller: "AnotherController"
+        }).
         otherwise({
             redirectTo: "/home"
         })

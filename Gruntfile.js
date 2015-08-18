@@ -21,6 +21,14 @@ module.exports = function(grunt){
                 src: "styles/style.css",
                 "dest": "server/public/assets/"
             },
+            bootstrap: {
+                expand: true,
+                cwd: 'node_modules',
+                src: [
+                    "bootstrap/dist/css/bootstrap.min.css"
+                ],
+                "dest": "server/public/vendors/"
+            },
             angular: {
                 expand: true,
                 cwd: 'node_modules',
@@ -51,7 +59,8 @@ module.exports = function(grunt){
                 src: [
                     "views/routes/activities.html",
                     "views/routes/home.html",
-                    "views/routes/motorcycles.html"
+                    "views/routes/motorcycles.html",
+                    "views/routes/friendlies.html"
                 ],
                 "dest": "server/public/assets/"
             }

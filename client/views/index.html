@@ -1,31 +1,38 @@
 <!DOCTYPE html>
 <html ng-app="myApp">
     <head lang="UTF-8">
-        <link rel=stylesheet" href="/assets/styles/style.css">
+        <title>PR Stafki, personal page</title>
+        <link rel="stylesheet" href="/vendors/bootstrap/dist/css/bootstrap.min.css">
+        <link rel="stylesheet" href="/assets/styles/style.css">
+        <link href='http://fonts.googleapis.com/css?family=Monda' rel='stylesheet' type='text/css'>
 
     </head>
     <body>
         <header>
             <div class="jumbotron">
-                <h1>P.R. Stafki</h1>
+                <h1>P.R. STAFKI</h1>
             </div>
         </header>
-        <ul>
-            <li><a href="#home">Home</a></li>
-            <li><a href="#activities">Activities</a></li>
-            <li><a href="#motorcycles">Motorcycles</a></li>
-        </ul>
+        <div class="well">
+            <ul>
+                <li><a href="#home">Home</a></li>
+                <li><a href="#activities">Activities</a></li>
+                <li><a href="#motorcycles">Motorcycles</a></li>
+                <li><a href="#friendlies">Friendlies</a></li>
+            </ul>
+        </div>
         <div>
             <main ng-view></main>
         </div>
-
         <footer>
-            <p>a few side by side links here (contact, nerdstuff, link to RCP)</p>
+            <div class="well">
+                <ul class="footies">
+                    <li><a href="https://www.linkedin.com/pub/paul-r-stafki/b8/54a/207">Contact</a></li>
+                    <li><a href="https://github.com/paulstafki">Nerdstuffs</a></li>
+                    <li><a href="http://www.roadclosedracing.com/drupal/">Racing</a></li>
+                </ul>
+            </div>
         </footer>
-
-
-
-
 
     <script type="text/javascript" src="/vendors/angular/angular.min.js"></script>
     <script type="text/javascript" src="/vendors/angular-route/angular-route.min.js"></script>
