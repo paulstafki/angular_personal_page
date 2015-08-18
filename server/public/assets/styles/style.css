@@ -24,17 +24,17 @@ li {
     padding-left: 22px;
 }
 
-h2 {
+h2, h3 {
     padding-left: 20px;
 }
 
-.homeDiv, p, img {
+p, img {
     margin-left: 20px;
 }
 
 .column {
     display: inline-block;
-    padding-left: 28px;
+    padding-left: 38px;
 }
 
 .activitiesDiv {
@@ -44,12 +44,27 @@ h2 {
 .activitiescolumn {
     display: inline-block;
     padding-left: 20px;
+    vertical-align: middle;
+    height: 100%;
 }
 
 .superfriends {
-    width: 360px;
+    width: 480px;
 }
 
 .superfriends2 {
-    width: 150px;
+    width: 180px;
+}
+
+.blurb, .schooling {
+    margin-left: 20px;
+    width: 640px;
+}
+.mainview {
+    width: 100%;
+    height: 700px;
+}
+
+.expDiv {
+    margin-left: 20px;
 }
