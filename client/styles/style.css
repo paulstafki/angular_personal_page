@@ -68,3 +68,15 @@ p, img {
 .expDiv {
     margin-left: 20px;
 }
+
+.darkyDiv {
+    background-color: #000000;
+}
+
+.pics {
+    opacity:.5;
+}
+
+.pics:hover {
+    opacity:1;
+}
